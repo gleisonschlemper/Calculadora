@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../calculadora/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+<div class="conteiner">
+   <div class="memoria">
+        <span class="material-icons" id="icon">
+        logout
+        </span>
+   </div>
+
+
+    <div class="calcuradora ">
+        <h1 class="resultado"></h1>
+
+        <div class="teclado">
+            <p onclick="apagarUm()">CE</p>
+            <p onclick="teclado('(')">(</p>
+            <p onclick="teclado(')')">)</p>
+            <p onclick="teclado('-')">-</p>
+            <p onclick="teclado(7)">7</p>
+            <p onclick="teclado(8)">8</p>
+            <p onclick="teclado(9)">9</p>
+            <p  onclick="teclado('/')">/</p>
+            <p  onclick="teclado(6)">6</p>
+            <p onclick="teclado(5)">5</p>
+            <p onclick="teclado(4)">4</p>
+            <p onclick="teclado('*')">x</p>
+            <p onclick="teclado(3)">3</p>
+            <p onclick="teclado(2)">2</p>
+            <p onclick="teclado(1)">1</p>
+            <p onclick="teclado('+')">+</p>
+            <p onclick="teclado(0)">0</p>
+            <p onclick="porcetagem('%')" class="porcetagem">%</p>
+            <p class="pointer" onclick="apagarTudo()">Apagar tudo</p>
+            <p class="pointer" style="font-size: 30px" onclick="soma()">=</p>
+        </div>
+    </div>
+
+</div>
+
+
+
+<script src="../calculadora/script.js"></script>
+</body>
+</html>
