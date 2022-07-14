@@ -1,4 +1,5 @@
 var memoria = []
+
 function teclado(e){
 document.querySelector('.resultado').innerHTML+=e;
 }
